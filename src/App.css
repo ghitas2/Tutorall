@@ -1,0 +1,87 @@
+body {
+  background-color: #F7B801; /* Background color for the body */
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between logo and nav */
+  background-color: #F7B801; /* Background color for the header */
+  padding: 10px 20px; /* Padding around the header */
+}
+
+.logo {
+  color: white; /* Logo text color */
+  font-size: 20px; /* Logo text size */
+  width: 150px; /* Width of the logo box */
+  height: 40px; /* Set to auto to allow height to adjust to content */
+  background-color: #3D348B; /* Purple background */
+  padding: 10px; /* Padding inside the box */
+  border-radius: 5px; /* Optional: Rounded corners */
+  display: flex; /* Use flexbox to center text vertically */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  font-weight:bold;
+}
+
+
+nav {
+  margin-left: auto; /* Push the nav to the right */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Align items in a row */
+}
+
+nav ul li {
+  margin-left: 20px; /* Space between items */
+}
+
+nav ul li a {
+  color: #3D348B; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px; /* Add padding around links */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #F7B801; /* Background color on hover */
+}
+
+.message{
+  padding-left: 170px;
+  padding-top: 200px;
+  color:#3D348B;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  font-weight: bold;
+}
+
+
+.buttons {
+  display: flex; /* Use flexbox for layout */
+  gap: 5px; /* Optional: Space between buttons */
+  
+}
+
+.button-1, .button-2 {
+  padding: 10px 20px; /* Add padding for a better appearance */
+  background-color: #3D348B; /* Background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  text-align: center; /* Center the text */
+}
+
+.button-1{
+  margin-right:20px;
+}
+
+.button-1{
+  margin-left:200px;
+}
